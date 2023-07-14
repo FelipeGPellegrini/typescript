@@ -49,3 +49,21 @@ const pessoa1 = new Pessoa("João", 30, "Engenheiro");
 console.log("Nome:", pessoa1.nome);
 console.log("Idade:", pessoa1.idade);
 console.log("Profissão:", pessoa1.profissao);
+
+// Implementar uma função que receba um array de números como parâmetro e retorne o maior valor presente no array.
+
+function orderNumbers(numb: number[]) {
+  numb.sort(function (a, b) {
+    return b - a;
+  })
+
+  console.log("Esse é o maior número: " + numb[0])
+
+}
+
+orderNumbers([10, 60, 85, 30, 1000])
+
+
+
+
+
