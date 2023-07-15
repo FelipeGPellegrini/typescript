@@ -57,7 +57,7 @@ function orderNumbers(numb: number[]) {
     return b - a;
   })
 
-  console.log("Esse é o maior número: " + numb[0])
+  console.log("Esse é o maior número do array: " + numb[0])
 
 }
 
