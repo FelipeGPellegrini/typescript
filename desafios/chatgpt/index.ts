@@ -61,7 +61,7 @@ function orderNumbers(numb: number[]) {
 
 }
 
-orderNumbers([10, 60, 85, 30, 1000])
+orderNumbers([10, 60, 85, 30, 1000, 850])
 
 
 
